@@ -1,3 +1,18 @@
 /* ============================================= */
 /* Typography                                    */
 /* ============================================= */
+
+.copyright {
+  color: $Athens-Gray;
+}
+
+.introduction h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+@media(min-width: 768px) {
+  .introduction h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+}
