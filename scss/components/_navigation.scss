@@ -6,6 +6,22 @@
   list-style-type: none;
   list-style-type: none;
   display: none;
+  li {
+    text-align: center;
+    margin: 15px auto;
+    border-bottom: 1px solid rgb(222, 226, 230, .2);
+    padding-bottom: 15px;
+    width: 80%;
+  }
+  li:hover {
+    text-decoration: underline;
+    transition: .5s ease;
+  }
+}
+
+#projects {
+  color: $text-hover-color;
+  text-decoration: underline;
 }
 
 .logo,
@@ -23,7 +39,6 @@
   font-size: 18px;
   background: $prim-color;
   padding-bottom: 10px;
-  height: 32px;
 }
 
 .navbar-toggle {
@@ -38,18 +53,10 @@
 .logo {
   display: inline-block;
   font-size: 15px;
-    margin-left: 10px;
-    margin-top: 8px;
+  margin-left: 10px;
+  margin-top: 8px;
   font-weight: 300;
   text-transform: uppercase;
-}
-
-.main-nav li {
-  text-align: center;
-  margin: 15px auto;
-  border-bottom: 1px solid rgb(222, 226, 230, .2);
-  padding-bottom: 15px;
-  width: 80%;
 }
 
 .logo:hover,
@@ -59,14 +66,12 @@
   transition: .5s ease;
 }
 
-.main-nav li:hover {
-  text-decoration: underline;
-  transition: .5s ease;
-}
-
+// make the navigation a block element when expanded from toggle.
 .active {
   display: block;
 }
+
+// Media Queries
 
 @media(min-width: 768px) {
   .navbar {
@@ -81,12 +86,12 @@
     margin-right: 30px;
     flex-direction: row;
     justify-content: flex-end;
-  }
-  .main-nav li {
-    margin: 0;
-    padding-bottom: 0;
-    width: auto;
-    border-bottom: none;
+    li {
+      margin: 0;
+      padding-bottom: 0;
+      width: auto;
+      border-bottom: none;
+    }
   }
   .nav-links {
     margin-left: 40px;

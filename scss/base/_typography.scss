@@ -2,12 +2,12 @@
 /* Typography                                    */
 /* ============================================= */
 
-.copyright {
-  color: $Athens-Gray;
-}
-
 .introduction h2 {
   font-family: 'Roboto Slab', serif;
+}
+
+.copyright {
+  color: $Athens-Gray;
 }
 
 @media(min-width: 768px) {
