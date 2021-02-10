@@ -1,3 +1,28 @@
 /* ============================================= */
 /* Buttons                                       */
 /* ============================================= */
+
+.button {
+  font-family: 'Roboto Slab', serif;
+  color: $sec-color ;
+  background: $text-hover-color;
+  opacity: 0;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin: .5em;
+  padding: 8px;
+  width: 25%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.photo-overlay:hover .button {
+  opacity: 1;
+}
+
+.button:hover {
+  border: 2px solid $text-hover-color;
+  background: rgb(52, 58, 64, .50);
+  color: $text-hover-color;
+  transition: .5s ease-in;
+}

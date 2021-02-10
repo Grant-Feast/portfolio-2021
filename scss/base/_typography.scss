@@ -2,9 +2,33 @@
 /* Typography                                    */
 /* ============================================= */
 
+// Main page styling
+
 .introduction h2 {
   font-family: 'Roboto Slab', serif;
 }
+
+// Projects page styling
+
+.project-title {
+  margin-top: .5em;
+  margin-bottom: .8em;
+}
+
+.projects-heading {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.projects-description {
+  text-align: center;
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+// Footer styling
 
 .copyright {
   color: $Athens-Gray;
@@ -14,5 +38,14 @@
   .introduction h2 {
     width: 100%;
     font-size: 30px;
+  }
+  .project-title {
+    margin-bottom: .5em;
+  }
+}
+
+@media(min-width: 1024px) {
+  .project-title {
+    margin-bottom: 1.8em;
   }
 }
