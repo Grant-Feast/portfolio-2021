@@ -19,7 +19,9 @@
   }
 }
 
-#projects {
+// When on a specific page, show the name in the navbar as a different color to the other pages.
+#projects,
+#about {
   color: $text-hover-color;
   text-decoration: underline;
 }
@@ -96,6 +98,7 @@
   .nav-links {
     margin-left: 40px;
   }
+  // Hide the navbar toggle when the page is 768px or larger.
   .navbar-toggle {
     display: none;
   }

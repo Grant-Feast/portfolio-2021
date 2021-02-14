@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  flex: 1 0 auto;
+  flex: 1 0 auto; // Applied to keep the footer at the bottom of the page.
 }
 
 .introduction-image {
@@ -47,20 +47,31 @@ main {
   }
 }
 
+// Footer styling
+
 .main-footer {
   display: flex;
-  flex-shrink: 0;
+  flex-shrink: 0; // Applied to keep the footer at the bottom of the page.
   justify-content: center;
   flex-wrap: wrap;
   background: $prim-color;
 }
 
+// Copyright container within the footer.
 .cr-container {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 4px;
   margin-bottom: 6px;
+}
+
+// About page styling
+
+.about-main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Projects styling
@@ -104,6 +115,7 @@ main {
 }
 
 @media(min-width: 768px) {
+  // Main page styling at 768px.
   .main-section {
     margin: 1em;
     display: grid;
@@ -115,6 +127,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
   }
+  // Projects styling at 768px.
   .main-section-pr {
     display: flex;
     flex-wrap: wrap;
@@ -132,17 +145,25 @@ main {
   .description-2 {
     grid-area: description-2
   }
+  .img-3 {
+    grid-area: image-3;
+  }
+  .description-3 {
+    grid-area: description-3;
+  }
   .projects-container {
     display: grid;
     width: 90%;
     padding: .5em;
+    margin-bottom: 1.5em;
     border: 1px solid black;
     border-radius: 5px;
     grid-template-columns: 50% 50%;
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas: 
       "image-1 description-1"
-      "description-2 image-2";
+      "description-2 image-2"
+      "image-3 description-3";
     align-items: center;
   }
   .icon-container {
@@ -151,6 +172,7 @@ main {
 }
 
 @media(min-width: 1024px) {
+  // Main page styling at 1024px and larger.
   .introduction {
     h2:nth-of-type(1) {
       margin-top: 3em;
@@ -159,6 +181,7 @@ main {
       margin-bottom: 4em;
     }
   }
+  // Projects styleing at 1024px and larger.
   .projects-description {
     width: 90%;
     margin-left: auto;

@@ -5,7 +5,7 @@
 .button {
   font-family: 'Roboto Slab', serif;
   color: $sec-color ;
-  background: $text-hover-color;
+  background: $project-button;
   opacity: 0;
   font-size: 1.3em;
   text-decoration: none;
@@ -14,15 +14,14 @@
   width: 25%;
   text-align: center;
   border-radius: 5px;
+  &:hover {
+    border: 2px solid $project-button;
+    background: rgb(52, 58, 64, .50);
+    color: $project-button;
+    transition: .5s ease-in;
+  }
 }
 
 .photo-overlay:hover .button {
   opacity: 1;
-}
-
-.button:hover {
-  border: 2px solid $text-hover-color;
-  background: rgb(52, 58, 64, .50);
-  color: $text-hover-color;
-  transition: .5s ease-in;
 }
