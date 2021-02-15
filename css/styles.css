@@ -275,7 +275,8 @@ main {
 }
 
 #projects,
-#about {
+#about,
+#contact {
   color: #fdc500;
   text-decoration: underline;
 }
