@@ -17,6 +17,10 @@
   font-family: "Roboto Slab", serif;
 }
 
+.introduction .jobTitle {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
 .project-title {
   margin-top: 0.5em;
   margin-bottom: 0.8em;
@@ -216,6 +220,14 @@ main {
     grid-area: description-3;
   }
 
+  .img-4 {
+    grid-area: image-4;
+  }
+
+  .description-4 {
+    grid-area: description-4;
+  }
+
   .projects-container {
     display: grid;
     width: 90%;
@@ -225,7 +237,7 @@ main {
     border-radius: 5px;
     grid-template-columns: 50% 50%;
     grid-auto-rows: minmax(100px, auto);
-    grid-template-areas: "image-1 description-1" "description-2 image-2" "image-3 description-3";
+    grid-template-areas: "image-1 description-1" "description-2 image-2" "image-3 description-3" "description-4 image-4";
     align-items: center;
   }
 
@@ -382,9 +394,40 @@ main {
   opacity: 0.3;
 }
 
+.icon-materialize {
+  height: 1em;
+  margin-top: 3px;
+}
+
+.icon-bulma {
+  height: 1.3em;
+  margin-left: 0.8em;
+}
+
 @media (min-width: 768px) {
   .beard {
     width: 90%;
+  }
+
+  .icon-materialize {
+    height: 1.1em;
+    margin-top: 2px;
+  }
+
+  .icon-bulma {
+    margin-left: 0.8em;
+    height: 1.3em;
+  }
+}
+@media (min-width: 1024px) {
+  .icon-materialize {
+    height: 1.5em;
+    margin-top: 4px;
+  }
+
+  .icon-bulma {
+    height: 1.7em;
+    margin-top: 2px;
   }
 }
 /* ============================================= */

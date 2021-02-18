@@ -20,8 +20,37 @@
   }
 }
 
+.icon-materialize {
+  height: 1em;
+  margin-top: 3px;
+}
+
+.icon-bulma {
+  height: 1.3em;
+  margin-left: .8em;
+}
+
 @media(min-width: 768px) {
   .beard {
     width: 90%;
+  }
+  .icon-materialize {
+    height: 1.1em;
+    margin-top: 2px;
+  }
+  .icon-bulma {
+    margin-left: .8em;
+    height: 1.3em;
+  }
+}
+
+@media(min-width: 1024px) {
+  .icon-materialize {
+    height: 1.5em;
+    margin-top: 4px;
+  }
+  .icon-bulma {
+    height: 1.7em;
+    margin-top: 2px;
   }
 }

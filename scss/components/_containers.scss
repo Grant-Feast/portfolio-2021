@@ -151,6 +151,12 @@ main {
   .description-3 {
     grid-area: description-3;
   }
+  .img-4 {
+    grid-area: image-4;
+  }
+  .description-4 {
+    grid-area: description-4;
+  }
   .projects-container {
     display: grid;
     width: 90%;
@@ -163,7 +169,8 @@ main {
     grid-template-areas: 
       "image-1 description-1"
       "description-2 image-2"
-      "image-3 description-3";
+      "image-3 description-3"
+      "description-4 image-4";
     align-items: center;
   }
   .icon-container {
