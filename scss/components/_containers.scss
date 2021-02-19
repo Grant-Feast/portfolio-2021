@@ -114,6 +114,14 @@ main {
   }
 }
 
+// Contact styling
+
+.contact-intro {
+  margin-top: 1em;
+}
+
+// Media Queries
+
 @media(min-width: 768px) {
   // Main page styling at 768px.
   .main-section {
