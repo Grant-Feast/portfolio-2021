@@ -19,6 +19,7 @@
 
 .introduction .jobTitle {
   font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 2px;
 }
 
 .project-title {
@@ -272,6 +273,23 @@ main {
     margin-top: 1em;
   }
 }
+.skills-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 1024px) {
   .introduction h2:nth-of-type(1) {
     margin-top: 3em;
@@ -315,7 +333,8 @@ main {
 
 #projects,
 #about,
-#contact {
+#contact,
+#skills {
   color: #fdc500;
   text-decoration: underline;
 }
@@ -431,6 +450,13 @@ main {
   margin-left: 0.8em;
 }
 
+.skills-image {
+  width: 100px;
+  margin-top: 2em;
+  padding: 10px;
+  height: 100px;
+}
+
 @media (min-width: 768px) {
   .beard {
     width: 90%;
@@ -483,6 +509,10 @@ main {
 
 .sk-html {
   margin-right: 0.5em;
+}
+
+.ny-js {
+  margin-left: 0.5em;
 }
 
 .fa-phone {

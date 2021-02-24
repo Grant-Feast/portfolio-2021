@@ -22,7 +22,8 @@
 // When on a specific page, show the name in the navbar as a different color to the other pages.
 #projects,
 #about,
-#contact {
+#contact,
+#skills {
   color: $text-hover-color;
   text-decoration: underline;
 }
