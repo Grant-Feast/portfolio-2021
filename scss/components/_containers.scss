@@ -23,9 +23,29 @@ main {
   flex: 1 0 auto; // Applied to keep the footer at the bottom of the page.
 }
 
+.intro-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
 .introduction-image {
+  background: url(/images/beard.jpg) no-repeat center center/cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(0px);
+  z-index: -1;
+}
+
+.number-load {
+  font-size: 50px;
 }
 
 .introduction {
