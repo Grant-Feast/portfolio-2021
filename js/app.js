@@ -9,6 +9,7 @@ navBarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
 });
 
+// JS code for the blur effect on the main page image.
 let load = 0;
 let int = setInterval(blurring, 40);
 
