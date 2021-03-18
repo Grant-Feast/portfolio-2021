@@ -102,6 +102,16 @@ main {
   margin-top: .8em;
 }
 
+.img-container,
+.projects-description {
+  margin-top: 2em;
+}
+
+.img-container:nth-of-type(1),
+.projects-description:nth-of-type(1) {
+  margin-top: 0;
+}
+
 .img-container {
   position: relative;
 }

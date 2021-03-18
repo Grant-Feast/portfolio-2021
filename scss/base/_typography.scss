@@ -13,6 +13,23 @@
   letter-spacing: 2px;
 }
 
+.slide-text {
+  transform: translateX(400%);
+}
+
+.slide-text:nth-of-type(2) {
+  transition-delay: 0.5s;
+}
+
+.slide-text:nth-of-type(3) {
+  transition-delay: 0.8s;
+}
+
+.show {
+  transform: translateX(0);
+  transition: transform 3s ease;
+}
+
 // Projects page styling
 
 .project-title {

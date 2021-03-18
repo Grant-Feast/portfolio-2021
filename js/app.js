@@ -28,3 +28,15 @@ function blurring() {
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
 }
+
+// Sliding text
+
+const slides = document.querySelectorAll('.slide-text');
+
+window.addEventListener('load', slideIn);
+
+function slideIn() {
+  slides.forEach(slide => {
+    slide.classList.add('show');
+  })
+}
