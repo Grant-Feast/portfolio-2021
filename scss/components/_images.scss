@@ -3,10 +3,10 @@
 /* ============================================= */
 
 // Main page image.
-.beard {
-  width: 300px;
-  margin-top: 1em;
-}
+// .beard {
+//   width: 300px;
+//   margin-top: 1em;
+// }
 
 // Projects page images.
 .projects-img {
@@ -40,9 +40,9 @@
 }
 
 @media(min-width: 768px) {
-  .beard {
-    width: 90%;
-  }
+  // .beard {
+  //   width: 90%;
+  // }
   .icon-materialize {
     height: 1.1em;
     margin-top: 2px;

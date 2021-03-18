@@ -1,3 +1,4 @@
+// Navigation JS code
 let mainNav = document.querySelector('#js-menu');
 let navBarToggle = document.querySelector('#js-navbar-toggle');
 
