@@ -2,11 +2,10 @@
 /* Images                                        */
 /* ============================================= */
 
-// Main page image.
-// .beard {
-//   width: 300px;
-//   margin-top: 1em;
-// }
+// About page images.
+.about-img {
+  width: 300px;
+}
 
 // Projects page images.
 .projects-img {
@@ -31,7 +30,6 @@
 }
 
 // Skills styles
-
 .skills-image {
   width: 100px;
   margin-top: 2em;
@@ -40,9 +38,6 @@
 }
 
 @media(min-width: 768px) {
-  // .beard {
-  //   width: 90%;
-  // }
   .icon-materialize {
     height: 1.1em;
     margin-top: 2px;

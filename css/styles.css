@@ -145,14 +145,13 @@ main {
 }
 
 .introduction-image {
-  background: url(https://ik.imagekit.io/l4mzocxldem/beard_Jf4tvFws0.jpg) no-repeat center center/cover;
+  background: url("https://ik.imagekit.io/l4mzocxldem/beard_Jf4tvFws0.jpg") no-repeat center center/cover;
   background-size: contain;
   display: flex;
   justify-content: center;
   position: absolute;
   width: 100vw;
   height: 100vh;
-  filter: blur(0px);
   z-index: -1;
 }
 
@@ -471,6 +470,10 @@ main {
 /* ============================================= */
 /* Images                                        */
 /* ============================================= */
+.about-img {
+  width: 300px;
+}
+
 .projects-img {
   width: 100%;
   opacity: 1;
